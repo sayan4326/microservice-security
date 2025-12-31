@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: secure-metrics-service
+server:
+  servlet:
+    context-path: /Omet
+  port: 37023
