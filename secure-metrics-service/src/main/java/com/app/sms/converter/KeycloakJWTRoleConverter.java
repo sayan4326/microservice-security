@@ -10,7 +10,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.oauth2.jwt.Jwt;
 
-public class KeycloakRoleConverter implements  Converter<Jwt, Collection<GrantedAuthority>>{
+public class KeycloakJWTRoleConverter implements  Converter<Jwt, Collection<GrantedAuthority>>{
 
 	@Override
 	public  Collection<GrantedAuthority> convert(Jwt jwt) {

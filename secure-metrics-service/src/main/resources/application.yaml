@@ -10,3 +10,9 @@ server:
   servlet:
     context-path: /Omet
   port: 37023
+
+client:
+  keycloak:
+    clientId: ${KEYCLOAK_CLIENTID}
+    clientSecret:  ${KEYCLOAK_CLIENTSECRET}
+    introspectionURI: ${KEYCLOAK_INTROSPECTION_URI}
