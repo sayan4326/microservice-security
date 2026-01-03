@@ -6,4 +6,11 @@ spring:
     driver-class-name: org.h2.Driver
     username: sa
     password:
-
+server:
+  port: 9090
+client:
+  keycloak:
+    clientId: ${KEYCLOAK_CLIENTID}
+    clientSecret:  ${KEYCLOAK_CLIENTSECRET}
+    issuerUri: ${KEYCLOAK_ISSUER_URI}
+    tokenUri: ${KEYCLOAK_TOKEN_URI}
